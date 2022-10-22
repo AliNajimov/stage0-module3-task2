@@ -2,13 +2,13 @@ package lang.print.gaps.task2;
 
 public class NamingConvention {
     public static void main(String[] args) {
-        int morrow = 0;
-        int money = 10;
-        int hundred = 100;
-        int back = 1000;
-        int underscore = 10000;
-        int sharp = 100000;
-        int star = 1000000;
-        int badExampleOfVarName = 1000000;
+        int variable = 0;
+        int variable_one = 10;
+        int variableTwo = 100;
+        int variable_three = 1000;
+        int VARIABLE_FOUR = 10000;
+        int VARIABLE_FIVE = 100000;
+        int variableSix = 1000000;
+        int variableSeven = 1000000;
     }
 }

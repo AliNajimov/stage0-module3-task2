@@ -29,7 +29,7 @@ class NamingConventionTest {
                                 line.contains("variableEight"))
                 .collect(Collectors.toList());
 
-        assertEquals(8, result.size(), "You should follow the case that is used for variable name:" +
+        assertEquals(9, result.size(), "You should follow the case that is used for variable name:" +
                 " if in the snippet you see snake case -> in the solution you must follow it.");
     }
 }

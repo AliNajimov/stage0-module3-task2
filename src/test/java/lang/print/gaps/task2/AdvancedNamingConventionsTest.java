@@ -18,7 +18,7 @@ class AdvancedNamingConventionsTest {
         List<String> strings = Files.readAllLines(path);
         List<String> result = strings.stream()
                 .filter(line ->
-                        line.contains("class AdvancedNamingConvention") ||
+                        line.contains("class advancedNamingConvention") ||
                                 line.contains("ADULT_AGE") ||
                                 line.contains("age;") ||
                                 line.contains("void callToFriend") ||

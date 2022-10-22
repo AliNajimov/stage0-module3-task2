@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AdvancedNamingConventionsTest {
     @Test
     void namesFromJavaConvention() throws IOException {
-        Path path = Paths.get("src/main/java/lang/print/gaps/task2/AdvancedNamingConvention.java");
+        Path path = Paths.get("src/main/java/lang/print/gaps/task2/advancedNamingConvention.java");
         List<String> strings = Files.readAllLines(path);
         List<String> result = strings.stream()
                 .filter(line ->

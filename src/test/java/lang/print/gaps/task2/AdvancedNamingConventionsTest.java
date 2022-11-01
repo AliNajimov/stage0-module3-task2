@@ -14,11 +14,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class AdvancedNamingConventionsTest {
     @Test
     void namesFromJavaConvention() throws IOException {
-        Path path = Paths.get("src/main/java/lang/print/gaps/task2/advancedNamingConvention.java");
+        Path path = Paths.get("src/main/java/lang/print/gaps/task2/AdvancedNamingConvention.java");
         List<String> strings = Files.readAllLines(path);
         List<String> result = strings.stream()
                 .filter(line ->
-                        line.contains("class advancedNamingConvention") ||
+                        line.contains("class AdvancedNamingConvention") ||
                                 line.contains("ADULT_AGE") ||
                                 line.contains("age;") ||
                                 line.contains("void callToFriend") ||
